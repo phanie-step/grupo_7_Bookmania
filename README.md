@@ -27,3 +27,7 @@ Las siguientes páginas son tomadas como referente por las funcionalidad y esté
 
 4. https://marxdesign.co.nz
 6. https://cubex.design 
+
+* Sobre el equipo.
+
+Hola, mi nombre es Daniela, soy estudiante de informática. He trabajado con PHP, HTML, CSS y Javascript para crear páginas sencillas, me gusta encontrar la lógica detrás del UI entonces me interesa mucho el Back-End de los sitios Web.
