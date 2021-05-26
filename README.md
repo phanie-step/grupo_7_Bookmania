@@ -13,6 +13,7 @@ Bookmania es una tienda en linea que brinda servicios de venta de libros físico
 Bookmania está integrada por 3 grandes intelectuales que tienen como objetivo dispersar el amor por la lectura, propiciando la transformación de la comunidad con un panorama firme ante la realidad que permite la misma. 
 
 * Referentes del mercado
+
 Las siguientes páginas web son elegidas como una referencia por el tipo de productos que venden y la forma en cómo están diseñadas dichas páginas; desde los colores hasta los logos y animaciones.
 
 1. https://www.gandhi.com.mx   
