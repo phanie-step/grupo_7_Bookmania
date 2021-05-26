@@ -26,7 +26,7 @@ La siguiente página la tomamos como referencia por el público al que apuntan q
 
 Las siguientes páginas son tomadas como referente por las funcionalidad y estética que presentan debido a que son interactivas con un enfoque minimalista y de 3d.
 
-4. https://marxdesign.co.nz
+5. https://marxdesign.co.nz
 6. https://cubex.design 
 
 * Sobre el equipo.
