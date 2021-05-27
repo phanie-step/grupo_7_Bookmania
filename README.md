@@ -34,3 +34,5 @@ Las siguientes páginas son tomadas como referente por las funcionalidad y esté
 Hola, mi nombre es Daniela, soy estudiante de informática. He trabajado con PHP, HTML, CSS y Javascript para crear páginas sencillas, me gusta encontrar la lógica detrás del UI entonces me interesa mucho el Back-End de los sitios Web.
 
 Soy Stephanie Avila, estudiante de maestría en optimización. He trabajado con PHP, Python pero más con lenguaje C fuera del ámbito de las páginas web por lo que mi interés por adentrarme en esta vertiente es para ampliar mi conocimiento en el área y desarrollarlo y dedicarme a ello en el ámbito profesional y laboral.
+
+Hola, soy Josué Vázquez Franco, estudio Ingeniería en Sistemas Computacionales, tengo experiencia en desarrollo web especialmente en HTML, CSS, PHP y JavaScript también tengo conocimiento en Angular y un poco en NodeJS, también he trabajado con APIs, Bootstrap y Express. Me encanta desarrollar y hacerlo bien. 
