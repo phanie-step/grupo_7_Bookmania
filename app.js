@@ -12,8 +12,15 @@ app.get('/', function (req, res) {
  res.sendFile(path.resolve(__dirname, './views/home.html'));
 });
 
+app.get('/producto', function (req, res) {
+    res.sendFile(path.resolve(__dirname, './views/producto.html'));
+});
 
-const server = app.listen(3000, function () {
+app.get('/carrito', function (req, res) {
+    res.sendFile(path.resolve(__dirname, './views/carrito.html'));
+});
+
+const server = app.listen(3001, function () {
     let host = server.address().address
     let port = server.address().port
     console.log("App listening at http://%s:%s", host, port)
