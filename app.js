@@ -1,11 +1,15 @@
 const express = require('express');
 const path = require('path');
-
 const app = express();
+const PORT = process.env.PORT || 3000;
 
-const publicPath = path.resolve(__dirname, './public');
-app.use( express.static(publicPath) );
 
+app.use(express.static(path.resolve(__dirname,"./public")));
+
+app.post('/home', (req, res) => {
+    console.log(req.body)
+    res.sendFile('./home.html', { root: 'views' })
+});
 
 
 app.get('/', function (req, res) {
@@ -20,8 +24,7 @@ app.get('/carrito', function (req, res) {
     res.sendFile(path.resolve(__dirname, './views/carrito.html'));
 });
 
-const server = app.listen(3000, function () {
-    let host = server.address().address
-    let port = server.address().port
-    console.log("App listening at http://%s:%s", host, port);
-})
+app.listen(PORT,function(){
+    console.log("Servidor listo");
+});
+
