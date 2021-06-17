@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/register.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400; 700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script defer src="index.js"></script>
+    <title>Registro</title>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">
+            <img class="logo-bookmania" src="/images/247.gif" alt="">
+        </h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+          <i class="fas fa-ellipsis-h"></i>
+        </label>
+    
+        <ul class="menu">
+            <a href="#" class="btn-inicio">Inicio</a>
+            <a href="#" class="btn-cat">Categoría</a>
+            <a href="#" class="btn-sbn">Sobre Nostros</a>
+            <a href="#" class="btn-cont">Contacto</a>
+            <div class="dropdown">
+              <a href="#" class="btn-cuenta dropbtn"><i class="fas fa-caret-down"></i> Mi cuenta</a>
+              <div class="dropdown-content">
+                  <a href="#"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+                  <a href="#"><i class="fas fa-user-plus"></i> Regístrate</a>
+                </div>
+            </div>
+            <a href="#">
+                <img class="imagen" src="/images/car.png" width="50" height="50" alt="Cart">
+            </a>
+            <label for="chk" class="hide-menu-btn">
+              <i class="fas fa-times"></i>
+            </label>
+          </ul>
+          <div class="pleca-colores"></div>
+    </header>
+    <main>
+        <div class="columnas">
+            <div class="column1">
+                <img src="./images/imagen-Libro.jpg">
+                
+            </div>
+
+            <div class="column2">
+                <div class="register"><h1>Regístrate</h1> </div>
+                <h3 class="texto1">Al crear una cuenta en Bookmania, podrás agilizar el proceso de compra,
+                    guardar múltiples direcciones de envío, rastrear pedidos y más.</h3>
+
+                <form action="" method="POST">
+                    <div class="form">
+                        <label for="name">*Nombre:
+                            <input type="text" id="name" name="name" class="control" required>
+                        </label><br><br>
+                        <label for="fname">*Apellido:
+                            <input type="text" id="fname" name="fname" class="control" required>
+                        </label><br><br>
+                        <label for="email">*Correo electrónico:
+                            <input type="email" id="email" name="email" class="control" required>
+                        </label><br><br>
+                        <label for="password">*Contraseña:
+                            <input type="password" id="password" name="password" class="control" required>
+                        </label><br><br>
+                        <label for="password2">*Confirmar contraseña:
+                            <input type="password" id="password2" name="password2" class="control" required>
+                        </label>
+                    </div>
+
+
+                    <div class="boton-capt">
+                        <div class="captcha">
+                            <div class="spinner">
+                                <label>
+                                    <input type="checkbox" onclick="$(this).attr('disabled','disabled');" required>
+                                    <span class="checkmark"><span>&nbsp;</span></span>
+                                </label>
+                            </div>
+                            <div class="text-capt">
+                                No soy un robot
+                            </div>
+                            <div class="logo-capt">
+                                <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/" class="img-cap"/>
+                                <p>reCAPTCHA</p>
+                                <small>Privacy - Terms</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="terminos-check">
+                        <label for="term1" class="term">
+                            <input type="checkbox" name="term1">
+                            Sí, quiero recibir por correo electrónico, promociones exclusivas de Librerías Bookmanía.
+                        </label>
+                        <label for="term2" class="term">
+                            <input type="checkbox" name="term2" required>
+                            He leído y acepto los Términos y Condiciones y Aviso de Privacidad.
+                        </label>
+                    </div>
+
+                    <div class="enviar">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pie">
+        <nav class="footer-contacto">
+            <ul>
+                <li class="footer-titulo">CONTACTO</li>
+                <li><a href="https://www.gmail.com">email@bookmania.com</a></li>
+                <br>
+                <li>Copyright © 2021 BOOKMANÍA. Todos los derechos reservados</li>
+            </ul>
+        </nav>
+        <nav class="footer-legales">
+            <ul>
+                <li class="footer-titulo">PÁGINAS LEGALES</li>
+                <li><a href="#">Aviso de privacidad</a></li>
+                <li><a href="#">Protección de datos</a></li>
+                <li><a href="#">Condiciones de compra</a></li>
+                <li><a href="#">Politica de cookies</a></li>
+            </ul>
+        </nav>
+        <nav class="footer-redes">
+            <a href="https://www.facebook.com"><img src="./images/facebook.png"></a>
+            <a href="https://www.twitter.com"><img src="./images/twitter.png"></a>
+            <a href="https://www.instagram.com"><img src="./images/instagram.png"></a>
+        </nav><br>   
+    </footer>
+</body>
+
+</html>
