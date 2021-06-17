@@ -29,9 +29,6 @@ header{
 	flex-direction: row;
 	justify-content: space-around;
 	justify-self: center;
-	background-image: url("../images/fondo2.jpg");
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 
@@ -107,46 +104,61 @@ header{
 .content p{
 	text-align: justify;
 }
-  
+ 
+.pleca-colores {
+	height: 15px;
+	background-image: url(https://www.cliento.mx/hubfs/ih-sitio/home/cursos-de-ingles-ih-pleca-footer.jpg);
+	background-repeat: repeat;
+	background-size: contain;
+	background-position: left center;
+}
 
 .column1{
 	flex: 50%;
 	display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center; 
+	justify-content: center;
+	align-items: center;
 }
 
-.imagen-column{
-	float: center;
-	display: flex;
-  	justify-content: center;
-	border-radius: 8px;
+.column1 img{
+	width: 500px;
+	height: 400px;
 }
 
 .column2{
 	justify-content: center;
     padding: 20px; 
     flex: 50%;
-	margin: 0px 8px 0px 8px;
+	margin: 10px 8px 0px 8px;
 }
 
 .register, .footer-titulo{
-    color:darkmagenta;
+    color: rgb(86, 145, 233);
+	
+}
+.register{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
 }
 
 .texto1{
     text-align: center;
-    margin: 60px 0px 50px 0px;
+    margin: 40px 0px 50px 0px;
 }
 
 form{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background-color: rgba(210, 205, 205,0.8);
-	padding: 16px;
+	background-color: rgba(0, 0, 0,0.7);
+	padding: 20px;
 	border-radius: 8px;
+}
+form label{
+	font-size: 20px;
+	color: rgb(84, 209, 247);
 }
 
 form form{
@@ -155,9 +167,17 @@ form form{
 	flex-direction: column;
 }
 
+.control{
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border: none;
+	margin-top: 10px;
+}
+
 .boton-capt{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 .captcha {
@@ -181,7 +201,7 @@ form form{
 .text-capt {
 	font-size:15px;
 	font-weight:60;
-	text-align: justify;
+	text-align: center;
 	margin-right:1em;
 }
 
@@ -226,31 +246,30 @@ form form{
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;    
+    justify-content: center;   
 }
 
-.enviar >button{
-	margin: 0px 0px 8px 22px;
-	color:darkmagenta;
-	font-family:'Times New Roman';
-	font-size: 16px;
-	width: 72px;
+.enviar button{
+	width: auto;
 	padding: 8px;
+	font-size: 22px;
+	border-radius: 3px;
+	border: none;
+	font-family: 'Times New Roman';
+	color: rgb(14, 108, 165);
 }
 
-#submit{
-    width: auto;   
-    font-size: 20px;
-}
     
 .terminos-check{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: flex-end;
-    font-size: 15px;
     text-align: justify;
     margin-top: 50px;
+}
+.term{
+	font-size: 15px;
 }
 
 footer{
@@ -258,6 +277,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	padding: 10px;
+	bottom: 0;
 }
 
 .footer-contacto, .footer-legales, ul{
