@@ -10,6 +10,14 @@ header{
 	color: #fff;
 }
 
+.pleca-colores {
+	height: 15px;
+	background-image: url(https://www.cliento.mx/hubfs/ih-sitio/home/cursos-de-ingles-ih-pleca-footer.jpg);
+	background-repeat: repeat;
+	background-size: contain;
+	background-position: left center;
+  }
+
 .logo{
 	line-height: 50px;
 	float: center;
@@ -23,8 +31,6 @@ header{
    float: left;
    text-transform: uppercase  
 }
-
-
 
 
 .menu{
@@ -106,9 +112,6 @@ header{
 	flex-direction: row;
 	justify-content: space-around;
 	justify-self: center;
-	background-image: url("../images/fondo2.jpg");
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 
@@ -116,64 +119,83 @@ header{
     justify-content: center;
     padding: 20px; 
     flex: 50%;
-	margin: 14px 14px 14px 14px;
+	margin: 20px;
 }
 .column2{
     display: flex;
     flex: 50%;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+	align-items: center;
+    justify-content: flex-end;
+    padding: 20px; 
+	margin: 10px 8px 0px 8px;
+}
+.register, .footer-titulo{
+    color: rgb(86, 145, 233);
+}
+.register{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.texto1{
+    text-align: center;
+    margin: 20px 0px 40px 0px;
 }
 
 form{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background-color: rgba(210, 205, 205, 0.6);
-	padding: 26px;
+	background-color: rgba(0, 0, 0,0.7);
+	padding: 20px;
 	border-radius: 8px;
 }
+form label{
+	font-size: 20px;
+	color: rgb(84, 209, 247);
+}
+
 form form{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 }
-.register, .footer-titulo{
-    color:darkmagenta;
-    margin: 20px;
+
+.control{
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 3px;
+	border: none;
+	margin-top: 10px;
 }
 
-
-.imagen-column{
-	float: center;
-	display: flex;
-  	justify-content: center;
-	border-radius: 8px;
+.column2 img{
+	width: 400px;
 }
 
 .enviar{
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;    
+    justify-content: center;   
 }
-.enviar >button{
-	margin: 0px 0px 8px 22px;
-	color:darkmagenta;
-	font-family:'Times New Roman';
-	font-size: 16px;
+
+.enviar button{
 	width: auto;
 	padding: 8px;
-}
-.enviar >a{
-    align-items: flex-end;
+	font-size: 22px;
+	border-radius: 3px;
+	border: none;
+	font-family: 'Times New Roman';
+	color: rgb(14, 108, 165);
 }
 
 #ligaContraseña{
-    color:darkmagenta;
+    color: rgb(93, 170, 218);
     font-family:'Times New Roman';
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
