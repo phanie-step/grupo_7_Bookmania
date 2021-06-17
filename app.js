@@ -20,8 +20,8 @@ app.get('/carrito', function (req, res) {
     res.sendFile(path.resolve(__dirname, './views/carrito.html'));
 });
 
-const server = app.listen(3001, function () {
+const server = app.listen(3000, function () {
     let host = server.address().address
     let port = server.address().port
-    console.log("App listening at http://%s:%s", host, port)
+    console.log("App listening at http://%s:%s", host, port);
 })
