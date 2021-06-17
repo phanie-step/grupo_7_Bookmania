@@ -2,47 +2,171 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bookmania 2021</title>
-    <link rel="stylesheet" href="/css/headerstyles.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <script defer src="index.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bookmania 2021</title>
+  <link rel="stylesheet" href="/css/headerstyles.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script defer src="index.js"></script>
 </head>
 
 <body>
 
-    <div class="header">
-        <h2 class="logo">
-            <img class="logoimg" src="/images/image0.png" alt="">
-        </h2>
-        <input type="checkbox" id="chk">
-        <label for="chk" class="show-menu-btn">
-          <i class="fas fa-ellipsis-h"></i>
-        </label>
-    
-        <ul class="menu">
-          <a href="#" class="btn-inicio">Inicio</a>
-          <a href="#" class="btn-cat">Categoría</a>
-          <a href="#" class="btn-sbn">Sobre Nostros</a>
-          <a href="#" class="btn-cont">Contacto</a>
-          <div class="dropdown">
-            <a href="#" class="btn-cuenta dropbtn"><i class="fas fa-caret-down"></i> Mi cuenta</a>
-            <div class="dropdown-content">
-                <a href="#"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
-                <a href="#"><i class="fas fa-user-plus"></i> Regístrate</a>
-              </div>
-          </div>
-          <a href="#">
-              <img class="imagen" src="/images/car.png" width="50" height="50" alt="Cart">
-          </a>
-          <label for="chk" class="hide-menu-btn">
-            <i class="fas fa-times"></i>
-          </label>
-        </ul>
+  <div class="header">
+    <h2 class="logo">
+      <img class="logoimg" src="/images/image0.png" alt="">
+    </h2>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="#" class="btn-inicio">Inicio</a>
+      <a href="#" class="btn-cat">Categoría</a>
+      <a href="#" class="btn-sbn">Sobre Nostros</a>
+      <a href="#" class="btn-cont">Contacto</a>
+      <div class="dropdown">
+        <a href="#" class="btn-cuenta dropbtn"><i class="fas fa-caret-down"></i> Mi cuenta</a>
+        <div class="dropdown-content">
+          <a href="#"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+          <a href="#"><i class="fas fa-user-plus"></i> Regístrate</a>
+        </div>
       </div>
+      <a href="#">
+        <img class="imagen" src="images/car.png" width="50" height="50" alt="Cart">
+      </a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+
+  <div class="pleca-colores"></div>
+
+  <label for="chk" class="slides">
+    <section class="slideshow" style="height: 420px;">
+      <span id="target-1"></span>
+      <span id="target-2"></span>
+
+      <div class="slideshow-item item-1">
+        <div class="progress">1 de 2</div>
+        <img src="images/carr/4.png" class="img1" alt="">
+        <a href="#target-1" class="arrow arrow-prev"></a>
+        <a href="#target-2" class="arrow arrow-next"></a>
+      </div>
+
+      <div class="slideshow-item item-2">
+        <div class="progress">2 de 2</div>
+        <img src="images/carr/3.png" alt="" />
+        <a href="#target-1" class="arrow arrow-prev"></a>
+        <a href="#target-2" class="arrow arrow-next"></a>
+      </div>
+    </section>
+  </label>
+
+
+  <h1 style="text-align: center;">Lo más popular</h1>
+
+  <section id="main">
+    <div class="card"><img class="image cover"
+        src="https://cdn.gandhi.com.mx/media/catalog/product/cache/1/image/370x/9df78eab33525d08d6e5fb8d27136e95/9/7/9786070749001.jpg" />
+      <div class="book-info">
+        <div class="title">LA BAILARINA DE AUSCHWITZ</div>
+        <div class="byline">EDITH EGER</div>
+        <div class="rating"><span class="stars"></span><span class="votes">192 Opiniones</span></div>
+        <div class="about">
+          <p>Un libro sobrecogedor, potente e inspirador que busca ayudar a todos aquellos cuyos traumas les impiden
+            vivir en plenitud.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card"><img class="image cover"
+        src="https://cdn.gandhi.com.mx/media/catalog/product/cache/1/image/370x/9df78eab33525d08d6e5fb8d27136e95/9/7/9786073803663.jpg" />
+      <div class="book-info">
+        <div class="title">REGRESO A LA JAULA</div>
+        <div class="byline">ROGER BARTRA</div>
+        <div class="rating"><span class="stars"></span><span class="votes">130 Opiniones</span></div>
+        <div class="about">
+          <p>¿Cuáles fueron las verdaderas razones del triunfo electoral de Andrés Manuel López Obrador en 2018?</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card"><img class="image cover"
+        src="https://cdn.gandhi.com.mx/media/catalog/product/cache/1/image/370x/9df78eab33525d08d6e5fb8d27136e95/9/7/9786073191470.jpg" />
+      <div class="book-info">
+        <div class="title">SALVAR EL FUEGO</div>
+        <div class="byline">GUILLERMO ARRIAGA</div>
+        <div class="rating"><span class="stars"></span><span class="votes">120 Opiniones </span></div>
+        <div class="about">
+          <p>Salvar el fuego es una historia que explora la capacidad de los seres humanos para cruzar las fronteras de
+            la locura, el deseo y la venganza.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- start of categories section -->
+  <section class="section-background">
+    <div class="section-wrapper">
+      <div class="categories-header">
+        <h1>¡En Bookmania encuentras!</h1>
+      </div>
+      <div class="categories rows wrapper">
+        <div class="col category-container">
+          <div class="category-menu" id="menu1">
+            <div class="category-label">Recomendaciones</div>
+          </div>
+        </div>
+        <div class="col category-container">
+          <div class="category-menu" id="menu2">
+            <div class="category-label">Novedades</div>
+          </div>
+        </div>
+        <div class="col category-container">
+          <div class="category-menu" id="menu3">
+            <div class="category-label">Los más leídos</div>
+          </div>
+        </div>
+        <div class="col category-container">
+          <div class="category-menu" id="menu4">
+            <div class="category-label">Libros Electrónicos</div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer class="pie">
+    <nav class="footer-contacto">
+        <ul>
+            <li class="footer-titulo">CONTACTO</li>
+            <li><a href="https://www.gmail.com">email@bookmania.com</a></li>
+            <br>
+            <li>Copyright © 2021 BOOKMANÍA. Todos los derechos reservados</li>
+        </ul>
+    </nav>
+    <nav class="footer-legales">
+        <ul>
+            <li class="footer-titulo">PÁGINAS LEGALES</li>
+            <li><a href="#">Aviso de privacidad</a></li>
+            <li><a href="#">Protección de datos</a></li>
+            <li><a href="#">Condiciones de compra</a></li>
+            <li><a href="#">Politica de cookies</a></li>
+        </ul>
+    </nav>
+    <nav class="footer-redes">
+        <a href="https://www.facebook.com"><img src="./images/facebook.png"></a>
+        <a href="https://www.twitter.com"><img src="./images/twitter.png"></a>
+        <a href="https://www.instagram.com"><img src="./images/instagram.png"></a>
+    </nav><br>   
+</footer>
+</body>
+
+</html>
+
 
 </body>
 
