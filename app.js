@@ -27,8 +27,8 @@ app.get('/registro', function (req, res) {
     res.sendFile(path.resolve(__dirname, './views/register.html'));
 });
 
-app.get('/carrito', function (req, res) {
-    res.sendFile(path.resolve(__dirname, './views/carrito.html'));
+app.get("/carrito", (req, res) => {
+    res.status(200).sendFile("carrito.html", { root: "views" });
 });
 
 app.listen(PORT,function(){
