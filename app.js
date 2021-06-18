@@ -20,6 +20,13 @@ app.get('/producto', function (req, res) {
     res.sendFile(path.resolve(__dirname, './views/producto.html'));
 });
 
+app.get('/login', function (req, res) {
+    res.sendFile(path.resolve(__dirname, './views/login.html'));
+});
+app.get('/registro', function (req, res) {
+    res.sendFile(path.resolve(__dirname, './views/register.html'));
+});
+
 app.get('/carrito', function (req, res) {
     res.sendFile(path.resolve(__dirname, './views/carrito.html'));
 });
