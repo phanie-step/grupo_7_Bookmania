@@ -16,19 +16,17 @@ app.get('/', function (req, res) {
  res.sendFile(path.resolve(__dirname, './views/home.html'));
 });
 
-app.get('/producto', function (req, res) {
-    res.sendFile(path.resolve(__dirname, './views/producto.html'));
-});
-
-app.get('/login', function (req, res) {
-    res.sendFile(path.resolve(__dirname, './views/login.html'));
-});
-app.get('/registro', function (req, res) {
-    res.sendFile(path.resolve(__dirname, './views/register.html'));
-});
 
 app.get("/carrito", (req, res) => {
     res.status(200).sendFile("carrito.html", { root: "views" });
+});
+
+app.get("/register", (req, res) => {
+    res.status(200).sendFile("register.html", { root: "views" });
+});
+
+app.get("/login", (req, res) => {
+    res.status(200).sendFile("login.html", { root: "views" });
 });
 
 app.listen(PORT,function(){
