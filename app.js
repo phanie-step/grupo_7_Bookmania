@@ -16,7 +16,7 @@ app.get('/', function (req, res) {
  res.sendFile(path.resolve(__dirname, './views/home.html'));
 });
 
-app.get('/producto', function (req, res) {
+/*app.get('/producto', function (req, res) {
     res.sendFile(path.resolve(__dirname, './views/producto.html'));
 });
 
@@ -30,7 +30,7 @@ app.get('/registro', function (req, res) {
 app.get('/carrito', function (req, res) {
     res.sendFile(path.resolve(__dirname, './views/carrito.html'));
 });
-
+*/
 app.listen(PORT,function(){
     console.log("Servidor listo");
 });
