@@ -10,6 +10,6 @@ Stephanie realizó las páginas de login y registro; en html con su respectivo c
 Josué realizó la página de Inicio junto con su html y css respectivo, juntó todo el proyecto para subirlo a GitHub y reazliar el pull-request.
 Logramos realizar todas las actividades solicitadas para este sprint, no obstante nos hizo falta tiempo debido a que eran bastantes páginas que realizar y sobre todo darle un estilo con css que también fue muy tradado. Las diversas actividades que tiene cada integrante del equipo hace que nos retrasemos un poco, es por ello que el tiempo entre cada sprint lo sentimos que es muy corto, no obstante hemos entregado todo :)
 
-Para este Sprint 3 estamos trabajando de la misma forma, cada integrante del equipo tiene una actividad delegada y la estamos llevando a cabo, Josué se encarga de la página de inicio, Daniela de las páginas de "detalle de producto" y "carrito de compras" y Stephanie se encarga de las páginas de "Login" y "Registro".
+Para este Sprint 3 estamos trabajando de la misma forma, cada integrante del equipo tiene una actividad delegada y la estamos llevando a cabo, Josué se encarga de la página de inicio, Daniela de las páginas de "detalle de producto" y "carrito de compras" y Stephanie se encarga de las páginas de "Login" y "Registro". Estamos siguiendo el siguiente workspace: https://trello.com/b/Twp5NVln/sprint-3 
 
 
