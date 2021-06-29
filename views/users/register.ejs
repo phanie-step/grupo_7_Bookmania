@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><Title>Registro</Title></head>
+    <%- include('../partials/head') %>
+    
+<body>
+    <%- include('../partials/header') %>
+   
+    <main>
+        <div class="columnas">
+            <div class="column1">
+                <img src="./images/imagen-Libro.jpg">
+                
+            </div>
+
+            <div class="column2">
+                <div class="register"><h1>Regístrate</h1> </div>
+                <h3 class="texto1">Al crear una cuenta en Bookmania, podrás agilizar el proceso de compra,
+                    guardar múltiples direcciones de envío, rastrear pedidos y más.</h3>
+
+                <form action="" method="POST">
+                    <div class="form">
+                        <label for="name">*Nombre:
+                            <input type="text" id="name" name="name" class="control" required>
+                        </label><br><br>
+                        <label for="fname">*Apellido:
+                            <input type="text" id="fname" name="fname" class="control" required>
+                        </label><br><br>
+                        <label for="email">*Correo electrónico:
+                            <input type="email" id="email" name="email" class="control" required>
+                        </label><br><br>
+                        <label for="password">*Contraseña:
+                            <input type="password" id="password" name="password" class="control" required>
+                        </label><br><br>
+                        <label for="password2">*Confirmar contraseña:
+                            <input type="password" id="password2" name="password2" class="control" required>
+                        </label>
+                    </div>
+
+
+                    <div class="boton-capt">
+                        <div class="captcha">
+                            <div class="spinner">
+                                <label>
+                                    <input type="checkbox" onclick="$(this).attr('disabled','disabled');" required>
+                                    <span class="checkmark"><span>&nbsp;</span></span>
+                                </label>
+                            </div>
+                            <div class="text-capt">
+                                No soy un robot
+                            </div>
+                            <div class="logo-capt">
+                                <img src="https://forum.nox.tv/core/index.php?media/9-recaptcha-png/" class="img-cap"/>
+                                <p>reCAPTCHA</p>
+                                <small>Privacy - Terms</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="terminos-check">
+                        <label for="term1" class="term">
+                            <input type="checkbox" name="term1">
+                            Sí, quiero recibir por correo electrónico, promociones exclusivas de Librerías Bookmanía.
+                        </label>
+                        <label for="term2" class="term">
+                            <input type="checkbox" name="term2" required>
+                            He leído y acepto los Términos y Condiciones y Aviso de Privacidad.
+                        </label>
+                    </div>
+
+                    <div class="enviar">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <%- include('../partials/footer') %>
+    
+</body>
+</html>

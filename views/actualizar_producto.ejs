@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><Title>Actualizar Producto</Title></head>
+    <%- include('./partials/head') %>
+    
+    <body>
+    <%- include('./partials/header') %>
+    <main>
+        <h2 class="titulo">Creación y Edición de Productos</h2>
+        <div class="formulario">
+            <form action="" method="POST">
+                <label for="id">Id:
+                    <input type="number" name="id" id="id" required>
+                </label>
+                <div class="titulo">
+                    <label for="titulo">Título:
+                        <input type="text" name="titulo" id="titulo" required>
+                    </label><br>
+                    <label for="autor">Autor:
+                        <input type="text" name="autor" id="autor" required>
+                    </label><br>
+                </div>
+
+                <div class="titulo">
+                    <label for="año">Año:
+                        <input type="number" name="año" id="año" required>
+                    </label><br>
+                    <label for="categoría">Categoría:
+                        <select name="Categoría" required>
+                            <option value="arte">Arte</option>
+                            <option value="ciencia">Ciencia</option>
+                            <option value="deportes">Deportes</option>
+                            <option value="derecho">Derecho</option>
+                            <option value="economía">Economía</option>
+                            <option value="ingles">Enseñanza Inglés</option>
+                            <option value="ficcion">Ficción</option>
+                            <option value="ingenieria">Ingeniería</option>
+                            <option value="infantil">Infantil</option>
+                            <option value="informatica">Informática</option>
+                            <option value="economía">Economía</option>
+                            <option value="literatura">Literatura</option>
+                            <option value="medicina">Medicina</option>
+                            <option value="psicología">Psicología</option>
+                            <option value="religion">Religión</option>
+                        </select>
+                    </label><br>  
+                </div><br>
+                <label for="editorial">Editorial:
+                    <input type="text" name="editorial">
+                </label><br><br>
+                <label for="precio">Precio:
+                    <input type="number" name="precio" placeholder="123.99" required>
+                </label><br><br>
+                <label for="descripcion"> Detalle del libro: <br>
+                    <textarea name="descripcion" required> </textarea>
+                </label><br>
+                    <label for="oferta"> Oferta:<br>
+                        0%<input type="radio" name="oferta" id="0%">
+                        5%<input type="radio" name="oferta" id="5%">
+                        10%<input type="radio" name="oferta" id="10%">
+                        20%<input type="radio" name="oferta" id="20%">
+                        50%<input type="radio" name="oferta" id="50%">
+                    </label><br>
+                    <div class="titulo">
+                        <label for="img">Imagen:
+                            <input type="file" size="24" required>
+                        </label>
+                    </div>      
+                <div class="enviar">
+                    <button type="submit" class="boton-form">Cargar Producto</button><br>
+                    <button type="submit" class="boton-form">Buscar Producto </button>
+                </div><br>
+                <button type="submit" class="boton-form">Borrar</button>
+            </form>
+        </div>
+    </main>
+    <%- include('./partials/footer') %>
+    
+</body>
+</html>

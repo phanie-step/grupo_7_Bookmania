@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><Title>Producto</Title></head>
+    <%- include('../partials/head') %>
+    
+    <body>
+    <%- include('../partials/header') %>
+
+    <div class="wrapper">
+        <div>
+        <div id="libro">
+            <img src="/images/book.jpg" width="260" height="380" alt="Libro">
+        </div>
+        <div id="descripcion">
+            <h1>A Million To One</h1>
+            <h2>Tony Faggioli</h2>
+            <img src="/images/star.png" width="25px" height="25px">
+            <img src="/images/star.png" width="25px" height="25px">
+            <img src="/images/star.png" width="25px" height="25px">
+            <img src="/images/star.png" width="25px" height="25px">
+            <img src="/images/star.png" width="25px" height="25px"><br><br>
+            <span id="precio">$275.00</span><br><br>
+            <span id="cantidad">CANTIDAD </span>
+
+            <input type="button"><i class="far fa-caret-square-up"></i>  1  <i class="far fa-caret-square-down"></i></i><br><br>
+            <button class="glow-on-hover" type="button">¡Agregar al carrito!</button><br><br><br>
+
+            <div class="img-with-text">
+                <img class="img" src="/images/book-open.svg" width="50px" height="50px"><br>
+                <span>320 hojas</span>
+            </div>
+            
+        </div>
+        <div id="resena">
+            <h2>Reseña</h2><br>
+            <p><i>A medida que se desarrolla el segundo libro de "La trilogía Fasano", se hace evidente que hay infierno y hay infierno en la tierra.</i><br> 
+                Y lo peor de todo ... hay algunos demonios que nunca ves venir. El detective Napoleon Villa tiene la misión de salvar a Kyle Fasano, el hombre que alguna vez fue su principal sospechoso y que ahora puede convertirse en la próxima 
+                víctima en un caso que continúa sin control. </p><br><br>
+        </div>
+
+    </div>  
+    </div>
+    <%- include('../partials/footer') %>
+    
+</body>
+</html>
