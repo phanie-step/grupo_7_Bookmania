@@ -9,7 +9,7 @@ router.get('/login', mainController.login);
 router.get('/carrito', mainController.carrito);
 router.get('/producto', mainController.producto);
 router.get('/actualizar_producto', mainController.actualizar_producto);
-router.get('/cat-arte', mainController.cat_arte);
+router.get('/cat_arte', mainController.cat_arte);
 
 
 module.exports = router;
